@@ -1,0 +1,21 @@
+.main-content {
+    font-family: var(--font-family-bai);
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);     flex: 1;
+    padding: 32px;
+  }
+
+
+  h2
+  {
+    color: #000;
+  }
+
+  label{
+    color: #000;
+  }
+
+  p2
+  {
+    color: #000;
+  }

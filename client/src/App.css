@@ -1,0 +1,213 @@
+.App {
+  text-align: center;
+  --font-family-bai: "Bai Jamjuree", sans-serif;
+  background-color: #000;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.logo
+{
+  padding-left:20px;
+}
+
+a {
+  text-decoration: none;
+}
+/* Reset some default styles */
+body, ul, li, p {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the thumb */
+  border-radius: 18px; /* Set the roundness of the thumb */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4e4949; /* Set the color of the thumb on hover */
+}
+
+/* Button (arrows) */
+::-webkit-scrollbar-button {
+  display: none; /* Hide scrollbar arrows */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-track:hover {
+  background: #ffffff00; /* Set the background color of the track on hover */
+}
+/* Set background color and text color for the entire page */
+body {
+  text-decoration: none;
+
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-family: var(--font-family-bai);
+}
+
+/* Style the navbar */
+.navbar {
+  text-decoration: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  background-color: #000;
+  width: 100%;
+  text-decoration: none;
+}
+
+.menu {
+  text-decoration: none;
+
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #fff;
+  font-size: large;
+}
+
+.menu li {
+  text-decoration: none;
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the banner image */
+.banner img {
+  width: 75%;
+  height: auto;
+  padding-top: 70px;
+  margin-top: 50px;
+  margin-left: 200px;
+
+}
+
+/* Style the "What We Do" and "How We Do" sections */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+p
+{
+  font-size:17px;
+}
+
+.feature {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.feature h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the full-width image */
+.full-width-image img {
+  width: 55%;
+  height: auto;
+  margin-left: 350px;
+}
+
+/* ... (previous styles) */
+
+/* Style the contact section */
+.contact {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #111; /* Set background color for the contact section */
+}
+
+/* Style the map container */
+.map-container {
+  
+  flex: 1;
+  max-width: 50%; /* Adjust the width of the map container */
+  padding: 20px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 400px; /* Set the height of the map container */
+  border: none;
+}
+
+/* Style the contact form */
+.contact-form {
+  flex: 1;
+  max-width: 50%; /* Adjust the width of the contact form */
+  padding: 20px;
+  background-color: #222; /* Set background color for the contact form */
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+.contact-form button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #fff;
+}

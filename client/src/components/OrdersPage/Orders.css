@@ -1,0 +1,9 @@
+.main-content2 {
+    font-family: var(--font-family-bai);
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);     flex: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+  

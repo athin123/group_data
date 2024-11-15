@@ -1,0 +1,27 @@
+button2 {
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    position: relative;
+    color: white;
+    
+  }
+  
+  #b1 {
+    background-color: green;
+    font-family: var(--font-family-bai);
+    float: right;
+  }
+  #b2 {
+    background-color: rgb(0, 9, 128);
+    float: right;
+    font-family: var(--font-family-bai);
+  
+  }
+  #b3 {
+    background-color: rgb(181, 29, 29);
+    float: right;
+    font-family: var(--font-family-bai);
+  }
+  
